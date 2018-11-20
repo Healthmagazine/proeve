@@ -1,0 +1,79 @@
+
+#burgermenu {
+    display: flex;
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+}
+
+#main-nav a {
+    color: #4c5a2c;
+    text-decoration: none;
+    text-align: center
+}
+
+#main-nav {
+    display: flex;
+    margin-right: .5em;
+    padding: 2%;
+    list-style: none;
+    overflow: hidden;
+    justify-content: center
+
+}
+
+#main-nav a {
+    display: inline;
+    margin-left: 1em;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+/*Forside billede*/
+#bigpicture{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+/*teaser tekst*/
+#teaser{
+display: flex;
+text-align: center;
+
+}
+
+/*hoveddelen*/
+h1{
+display: flex;
+justify-content: center;
+}
+
+.tekstogbillede1{
+width: 100%;
+background-color: #c2cba6
+}
+
+.tekstogbillede2{
+background-color: #e8efdd;
+}
+
+.billede{
+width: 95%;
+margin: 2%;
+}
+
+.tekst{
+display: flex;
+text-align: center;
+  }  
+
+#klikher{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+        
+    }
+
